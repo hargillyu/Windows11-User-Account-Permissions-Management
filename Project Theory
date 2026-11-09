@@ -1,0 +1,56 @@
+Windows User Account & Permissions Management
+Project Overview
+This project demonstrates practical Windows 11 administration skills, including local user account creation, password management, folder permissions and user access testing.
+
+Tools Used
+Windows 11
+Command Prompt (Administrator)
+File Explorer
+Windows Security Properties
+Practical Tasks
+1. Create a Local User Account
+Command:
+net user LvUser * /add
+
+Created a local Windows account named LvUser with a password.
+
+2. Verify User Account
+Command:
+net user LvUser
+
+Verified the account information and confirmed that the account was active.
+
+3. Create a Folder
+Created a folder named LvUserFiles for the permissions exercise.
+
+4. Configure Folder Permissions
+Added LvUser to the folder’s Security permissions.
+
+Granted:
+
+Read
+Write
+Read & Execute
+List Folder Contents
+Full Control and Modify were not granted.
+
+5. Test User Access
+Signed in using the LvUser account and tested access to the designated folder.
+
+6. Create and Open a Test Document
+Created LabUser_Test.txt and successfully opened the document.
+
+Skills Practised
+Windows user administration
+Command-line operations
+NTFS permissions
+Access control
+File management
+User access testing
+Project Outcome
+Successfully created and verified a local Windows user account, configured folder permissions and tested document access.
+
+Future Improvements
+Practise group management.
+Test permission inheritance.
+Troubleshoot access-denied scenarios.
